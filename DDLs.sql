@@ -24,10 +24,10 @@ create table alx.test_table_one
 		)
 ,	datecreated datetime2(7) not null constraint DF_datecreated default (current_timestamp)
 ,	insertable int not null
-)
+);
 go
 
 insert into alx.test_table_one (insertable)
-values (1),(2),(3)
+values (1),(2),(3);
 
-select * from alx.test_table_one
+select * from alx.test_table_one;
