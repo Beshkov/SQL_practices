@@ -22,8 +22,8 @@ create table alx.test_table_one
 		,	allow_page_locks = on /*def = on*/
 		,	optimize_for_sequential_key = on /*def = off*/
 		)
-,	datecreated datetime2(7) not null constraint DF_datecreated default (current_timestamp)
-,	insertable int not null
+,	DateCreated datetime2(7) not null constraint DF_datecreated default (current_timestamp)
+,	Insertable int not null
 );
 go
 
