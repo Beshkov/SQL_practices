@@ -24,6 +24,7 @@ create table alx.test_table_one
 		)
 ,	DateCreated datetime2(7) not null constraint DF_datecreated default (current_timestamp)
 ,	Insertable int not null
+,	Months as datepart(m,DateCreated) persisted not null
 );
 go
 
