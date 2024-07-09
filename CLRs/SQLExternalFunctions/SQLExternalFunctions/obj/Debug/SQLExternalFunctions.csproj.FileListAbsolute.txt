@@ -1,0 +1,6 @@
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\obj\Debug\SQLExternalFunctions.csproj.AssemblyReference.cache
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\obj\Debug\SQLExternalFunctions.csproj.CoreCompileInputs.cache
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\bin\Debug\SQLExternalFunctions.dll
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\bin\Debug\SQLExternalFunctions.pdb
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\obj\Debug\SQLExternalFunctions.dll
+D:\tsql quries\Some SQL code practice\SQL_practices\CLRs\SQLExternalFunctions\SQLExternalFunctions\obj\Debug\SQLExternalFunctions.pdb
