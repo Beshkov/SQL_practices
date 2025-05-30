@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -32,5 +33,30 @@ namespace SQLExternalFunctions
             return DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
+        public static string FastSeprator(string str, string imp1, string imp2, char spr)
+        {
+            
+            
+           string[] arr1 = imp1.Split(spr);
+           string[] arr2 = imp2.Split(spr);
+
+            if (arr1.Length == arr2.Length)
+            {
+
+                int max_len = arr1.Length;
+
+
+
+                for (int i = 0; i < max_len; i++)
+                {
+                    str = str.Replace(arr1[i], arr2[i]);                    
+                }
+                return str;
+            }
+            else
+            {
+                return str;
+            }
+        }
     }
 }
